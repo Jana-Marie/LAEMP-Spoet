@@ -1,0 +1,19 @@
+# kicad
+*-backups
+gerber
+fp-info-cache
+*-bak
+*.step
+*.stp
+
+# Misc
+growlight
+
+# FW
+build
+*.jdebug
+*.ioc
+
+# CAD
+*.ctb
+*.stl
