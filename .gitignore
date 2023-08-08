@@ -5,6 +5,7 @@ fp-info-cache
 *-bak
 *.step
 *.stp
+bom
 
 # Misc
 growlight
