@@ -1,4 +1,4 @@
-# LAEMP-Spoet
+# LÄMP-Spöt
 
 LÄMP-Spöt is an open source, multi-channel (multi-colour) LED spot that aims to deliver high quality effect-lighting through up to 6 LED-channels with ~10W each. This allows for a broader colour range than just RGB or RGBW, but RGB + non-mixed secondaries (i.e. RGB, Yellow, Cyan, Purple), RGB + Yellow + Whites, a variety of White tones (with degrees of Red, Blue and Green hues) and of course effect channels (i.e. UV, IR). In that, I have assembled various spöts that follow these suggestions, one that features RGBY + UV + IR, RGBY + IR + White and one with three channels of white + UV + IR for plants
 
@@ -59,7 +59,7 @@ It's not neccesarrily fixed on a single LED series by virtue of the LED-carrier 
 
 The driver-board hosts an STM32G431 with a huge surplus in computing power, allowing for generous colour-space conversions and color-to-wavelength matching. None of this is implemented as of right now (~09-2024). It requires a 15-20V USB-PD source to run. The MCU speaks USB FS through the Type-C receptacle as well. A 2mm pinheader with power, signals and I2C allows for connectivity through shield-like addons (blame me for only having USB FS as on-board connectivity :/). Each channel features a TPS54201 CC Buck as analog-current-source allowing each channel to run at up to 1.5A @ 20V.
 
-*Please do not reproduce this project if you are not willing to put some work and money into your reproduction, it's mechanical setup is highly alpha and there is little firmware.*
+**Please do not reproduce this project if you are not willing to put some work and money into your reproduction, it's mechanical setup is highly alpha and there is little firmware.**
 
 <table>
 	<tbody>
