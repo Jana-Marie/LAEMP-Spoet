@@ -82,6 +82,11 @@ The driver-board hosts an STM32G431 with a huge surplus in computing power, allo
 	<table>
 		<tbody>
 			<tr>
+				<td colspan="2">
+					Link to PDF
+				</td>
+			</tr>
+			<tr>
 				<td>
 					<img src="images/Screenshot from 2024-09-14 11-28-24.png"/>
 				</td>
